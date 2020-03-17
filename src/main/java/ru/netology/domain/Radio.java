@@ -12,14 +12,14 @@ public class Radio {
         if (currentVolume == maxVolume) {
             return;
         }
-        this.currentVolume++;
+        currentVolume++;
     }
 
     public void decreaseVolume() {
         if (currentVolume == minVolume) {
             return;
         }
-        this.currentVolume--;
+        currentVolume--;
     }
 
     public void increaseChannel() {
